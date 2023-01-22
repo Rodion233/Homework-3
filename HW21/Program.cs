@@ -2,6 +2,7 @@
 A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53
 */
+
 int Prompt(string message)
 {
     System.Console.Write($"{message} > ");
