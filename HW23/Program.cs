@@ -10,7 +10,7 @@ int Prompt(string message)
 }
 int x1 = Prompt("Введите число N");
 int index = 1;
-while (index<=x1)
+while (index <= x1)
 {
     double r = Math.Pow(index, 3);
     System.Console.WriteLine(r);

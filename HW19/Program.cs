@@ -10,7 +10,7 @@ int Prompt(string message)
 }
 int number = Prompt("Введите пятизначное число");
 int reverse = 0;
-int num =number;
+int num = number;
 while (num != 0)
 {
     reverse = reverse * 10 + num % 10;
